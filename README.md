@@ -35,10 +35,10 @@ After building the project, you can run the executable:
   * The Python path is set to include the directory containing the Python library.
   
 * **Qt Application Setup** :
-  * A [`QMainWindow`]("Go to definition") is created with a central [`QWidget`].
-  * A [`QVBoxLayout`]("Go to definition") is used to layout the widgets.
-  * A [`QTextEdit`]("Go to definition") widget acts as a Python console.
-  * A [`QPushButton`]("Go to definition") is used to run Python code.
+  * A `QMainWindow` is created with a central `QWidget`.
+  * A `QVBoxLayout` is used to layout the widgets.
+  * A `QTextEdit` widget acts as a Python console.
+  * A `QPushButton` is used to run Python code.
 
 ## License
 
