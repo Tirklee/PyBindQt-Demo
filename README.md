@@ -1,6 +1,6 @@
 # PyBindQt-Demo
 
-This project demonstrates how to integrate a Python interpreter into a Qt application using pybind11. The application creates a simple GUI with a text edit widget acting as a Python console and a button to execute Python code.
+This project demonstrates how to integrate a Python interpreter into a Qt C++ application using pybind11. The application creates a simple GUI with a text edit widget acting as a Python console and a button to execute Python code.
 
 
 ## Prerequisites
@@ -17,15 +17,14 @@ Use  `cmake` to build the project. Here is an example using `cmake`:
 ```bash
 mkdir build
 cd build
-cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 ```
 
 After building the project, you can run the executable:
 
 ```bash
-./pybindqt or pybindqt
-.exe
+./pybindqt or pybindq.exe
 ```
 
 

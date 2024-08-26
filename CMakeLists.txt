@@ -9,8 +9,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)  # Optional: Disable compiler-specific extensions
 # Find Qt6 packages
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-
-
 # Add pybind11
 execute_process(COMMAND git clone --depth 1 https://github.com/pybind/pybind11.git)
 add_subdirectory(pybind11)
